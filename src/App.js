@@ -1,4 +1,5 @@
 import DisplayExpenses from "./components/Expenses/DisplayExpenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 function App() {
   const expenses = [
@@ -28,10 +29,16 @@ function App() {
     },
   ];
 
+  const addExpenseHandler = (expense) => {
+    console.log("In APP.js");
+    console.log(expense);
+  };
+
   return (
     <div>
       <h2>Expenses Tracker</h2>
-      <DisplayExpenses expenses={expenses}/>
+      <NewExpense onAddExpense={addExpenseHandler} />
+      <DisplayExpenses expenses={expenses} />
     </div>
   );
 }
