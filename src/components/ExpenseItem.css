@@ -10,7 +10,7 @@
   }
   
   .expense-item-date {
-    font-size: 1rem;
+    font-size: 0.7rem;
     color: #888;
     
   }
@@ -25,13 +25,13 @@
   
   .expense-item-description h2 {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     color: #333;
     margin-right: 1rem;
   }
   
   .expense-item-price {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: bold;
     color: #d9534f;
     background-color: #333;
