@@ -28,7 +28,10 @@ function ExpenseForm(props) {
       date: new Date(enteredDate),
     };
 
+    // Sending data upword
     props.onSaveExpenseData(expenseData);
+
+    // Reseting input fields
     setEnteredTitle("");
     setEnteredAmount("");
     setEnteredDate("");
@@ -41,6 +44,7 @@ function ExpenseForm(props) {
           <label>Title:</label>
           <input
             type="text"
+            // Two way binding
             value={enteredTitle}
             onChange={titleChangeHandler}
           />
