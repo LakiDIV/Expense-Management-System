@@ -7,19 +7,19 @@ function App() {
       id: "e1",
       title: "Car Insurance",
       amount: "95.12",
-      date: new Date(2020, 8, 24),
+      date: new Date(2023, 8, 24),
     },
     {
       id: "e2",
       title: "Groceries",
       amount: "35.78",
-      date: new Date(2022, 3, 15),
+      date: new Date(2024, 3, 15),
     },
     {
       id: "e3",
       title: "Restaurant",
       amount: "54.99",
-      date: new Date(2021, 5, 10),
+      date: new Date(2023, 5, 10),
     },
     {
       id: "e4",

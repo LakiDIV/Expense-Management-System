@@ -1,0 +1,19 @@
+
+.custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(229, 229, 229);
+    width: 150px; /* Adjust the width as needed */
+    border-radius: 5px;
+    margin-left: 1rem;
+  }
+  
+  /* Style for when the dropdown is open */
+  .custom-select:focus {
+    outline: none;
+    border-color: #4a90e2; /* Example of a focus color */
+  }
+  
